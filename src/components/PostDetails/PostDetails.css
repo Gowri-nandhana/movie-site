@@ -1,0 +1,22 @@
+.title-box {
+  border: 1px solid transparent;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 5rem;
+  background-color: #ddd;
+  color: black;
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .title-box {
+    border: 1px solid transparent;
+
+    text-align: center;
+    padding: 5rem;
+    margin: 5rem;
+    background-color: #ddd;
+    color: black;
+    border-radius: 20px;
+  }
+}

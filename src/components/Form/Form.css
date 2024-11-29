@@ -1,0 +1,103 @@
+.form-section {
+  margin-top: 5rem;
+  padding-top: 3rem;
+  background-image: url(https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-50-Black-1080x608.jpg);
+  height: 600px;
+}
+
+.form-container {
+  text-align: center;
+  border: 1px solid transparent;
+  background-color: transparent;
+  width: 90%;
+  height: 500px;
+  margin-left: 1rem;
+
+  border-radius: 15px;
+  box-shadow: 0 2px 5px white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding-top: 5rem;
+}
+
+input[type="username"],
+input[type="email"],
+input[type="mobile"] {
+  width: 85%;
+  padding: 12px;
+  margin: 10px 0;
+  margin-left: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="username"]:focus,
+input[type="email"]:focus,
+input[type="mobile"]:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  outline: none; 
+}
+
+.text {
+  color: white;
+}
+
+.sub-button {
+  background-color: red;
+  padding: 10px;
+  width: 80%;
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 1rem;
+}
+.sign-button {
+  background-color: crimson;
+  padding: 10px;
+  width: 80%;
+  margin-left: 2rem;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .form-section {
+    margin-top: 0;
+  }
+  .form-container {
+    width: 600px;
+    height: 500px;
+    margin-left: 30rem;
+    border-radius: 15px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding-top: 3rem;
+  }
+
+  input[type="username"],
+  input[type="email"],
+  input[type="mobile"] {
+    width: 100%;
+  }
+
+  .sub-button{
+    margin-left: 4rem;
+  }
+  .sign-button{
+    margin-left: 4rem;
+  }
+}

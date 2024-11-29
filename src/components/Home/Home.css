@@ -1,0 +1,42 @@
+.post-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.post-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  transition: transform 0.2s;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.post-box > h2 {
+  color: black;
+}
+
+.post-box > p {
+  color: black;
+}
+
+@media (min-width: 786px) {
+  .post-boxes {
+    margin: 20px;
+    margin-top: 2rem;
+    gap: 20px;
+  }
+
+  .post-box {
+    width: 80rem;
+  }
+}
